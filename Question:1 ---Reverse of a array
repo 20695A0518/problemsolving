@@ -49,11 +49,11 @@ Sample Output 1
 Solution:
 
 import sys
-def reverseArray(a):
-    l=len(a)
+def reverseArray(a,n1):
+    l=n1
     ra=[i for i in reversed(a)]
     for i in range(l):
         print(ra[i],end=" ")
 n=int(input())
 arr=[i for i in input().split()]
-reverseArray(arr)
+reverseArray(arr,n)
